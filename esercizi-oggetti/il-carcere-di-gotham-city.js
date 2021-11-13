@@ -1,7 +1,6 @@
 /*
   Il carcere di Gotham City
-  Sei appena stato nominato direttore presso il carcere di Gotham City.
-  Hai l'arduo compito di scrivere un programma che gestisca:
+ scrivere un programma che gestisca:
   - I dati anagrafici delle guardie
   - I dati anagrafici dei detenuti
   - I fascicoli personali dei detenuti, che devono contenere almeno queste informazioni:

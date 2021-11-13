@@ -11,3 +11,7 @@
 
   http://www.imparareaprogrammare.it
 */
+var num = Math.floor((Math.random()*(10000-1)));
+console.log(num);
+var a = num.toString();
+console.log("il numero è a "+a.length+" cifre");
