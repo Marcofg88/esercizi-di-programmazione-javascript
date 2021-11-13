@@ -11,3 +11,7 @@
 
   http://www.imparareaprogrammare.it
 */
+var anno= 2021;
+var nascita= 1988;
+console.log("l età della persona è "+ (anno-nascita));
+console.log("x raggiungere 100 mancano "+ (100-(anno-nascita)));

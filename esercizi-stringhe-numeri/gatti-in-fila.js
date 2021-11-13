@@ -5,7 +5,8 @@
     b) Il numero dei gatti presenti in ogni fila
   Restituisca in output:
     - Il numero di file risultanti
-    - Nel caso l'ultima fila risulti incompleta indicare il numero di gatti mancanti per completarla (quanti gatti mancano per arrivare a b?)
+    - Nel caso l'ultima fila risulti incompleta indicare il numero di gatti mancanti per completarla
+     (quanti gatti mancano per arrivare a b?)
 
   Esempio:
     Input: numero di gatti = 44, gatti per fila = 6
@@ -17,3 +18,11 @@
 
   http://www.imparareaprogrammare.it
 */
+var totale = 44;
+var n_x_fila = 6;
+console.log("il numero delle file è "+ Math.ceil(totale/n_x_fila));
+if (totale%n_x_fila!=0)
+ {
+    console.log("x completare la fila mancano "+(n_x_fila-(totale%n_x_fila)));
+  } 
+
