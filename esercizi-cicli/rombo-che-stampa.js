@@ -16,7 +16,7 @@
   
   http://www.imparareaprogrammare.it
 */
-var n = 9;
+var n = 7;
 var nspazi = Math.floor(n/2);
 var spazi="";
 var tempSpazi=nspazi;
@@ -24,11 +24,12 @@ var tempSpazi=nspazi;
 for (var i=0;i<=n;i=i+2){
   spazi="";
   
-    while(nspazi>0){
+    while(tempSpazi>0){
       spazi+="_";
-      nspazi--;
+      tempSpazi--;
     }
-
+    nspazi--;
+  tempSpazi=nspazi;
   document.write(spazi);
 
     
