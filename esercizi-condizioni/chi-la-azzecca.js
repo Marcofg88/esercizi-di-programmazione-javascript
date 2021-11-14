@@ -15,7 +15,7 @@
     (Math.random() * (max-min) + min) ovvero, nel tuo caso:
     (Math.random() * (100-1) + 1)
   Ricordati che il valore dovrà essere intero quindi dovrai arrontondarlo usando Math.floor()*/
-casuale = Math.floor((Math.random()*(10-1)+1));  //.foloor prendo solo l intero
+casuale = Math.floor((Math.random()*(10-1)+1));  //.floor prendo solo l intero
 console.log(casuale);
 
 var giocatore1=1 , giocatore2=9;

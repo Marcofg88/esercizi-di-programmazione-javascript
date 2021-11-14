@@ -19,3 +19,11 @@
 
   http://www.imparareaprogrammare.it
 */
+for(var i=0;i<10;i++){
+  for(var j=0;j<10;j++){
+    if(i==0 && j==0){continue}
+    document.write(" "+ i.toString() + j.toString());
+    console.log(i.toString() + j.toString());
+  }
+  document.writeln("<br>");
+}
