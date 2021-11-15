@@ -16,7 +16,7 @@
   
   http://www.imparareaprogrammare.it
 */
-var n = 7;
+var n = 9;
 var nspazi = Math.floor(n/2);
 var spazi="";
 var tempSpazi=nspazi;
@@ -39,10 +39,22 @@ for (var i=0;i<=n;i=i+2){
   document.write("<br>");
 }
 
+nspazi = Math.floor(n/2);
+spazi="";
+tempSpazi=1;
+
 
 for (var e=n-2;e>=0;e=e-2){
-
   
+    if (tempSpazi<=nspazi){
+      spazi+="_";
+      document.write(spazi);
+      tempSpazi++;
+    }
+   
+   
+  
+
   
   for(var f=e;f>=1;f--){
     document.write("x");

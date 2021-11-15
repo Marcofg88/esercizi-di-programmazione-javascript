@@ -1,6 +1,4 @@
-/*
-  Il calendario mediocre
-  Scrivi un programma che dato:
+/* Scrivi un programma che dato:
     - Il numero di giorni nel mese
     - Il giorno della settimana in cui questo comincia (0: lunedì ... 6: domenica)
   Stampi il calendario di un mese.
@@ -14,34 +12,23 @@
             Ven 5
             Sab 6
             Dom 7
-            Lun 8
-            Mar 9
-            Mer 10
-            Gio 11
-            Ven 12
-            Sab 13
-            Dom 14
-            Lun 15
-            Mar 16
-            Mer 17
-            Gio 18
-            Ven 19
-            Sab 20
-            Dom 21
-            Lun 22
-            Mar 23
-            Mer 24
-            Gio 25
-            Ven 26
-            Sab 27
-            Dom 28
-            Lun 29
-            Mar 30
+            ...
             Mer 31
+ Variante:
+ passa direttamente il mese e calcola tu da quanti giorni è formato.*/
+ var vgiorno = new Array("lun","mar","mer","gio","ven","sab","dom");
+ var vmese = new Array(31,29,31,31,31,30,31,31,30,31,30,31);
+ var mese = prompt("inserisci il numero del mese");
+ //mese = parseInt(mese); converte in automatico
+ var giorno = prompt("inserisci le prime tre lettere del giorno");
+ var g = vgiorno.indexOf(giorno);
+
+for(i=1;i<=vmese[mese-1];i++){
+ 
+  console.log(" numero giorno del mese " + i + "  " + vgiorno[g])
+  g++;
+  if (g==7){g=0}
+
+}
 
 
-  Variante:
-  Piuttosto che avere in input il numero dei giorni del mese passa direttamente il mese e calcola tu da quanti giorni è formato.
-
-  http://www.imparareaprogrammare.it
-*/
