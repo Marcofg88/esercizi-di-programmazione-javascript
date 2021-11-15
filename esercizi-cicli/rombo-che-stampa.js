@@ -28,7 +28,7 @@ for (var i=0;i<=n;i=i+2){
       spazi+="_";
       tempSpazi--;
     }
-    nspazi--;
+  nspazi--;
   tempSpazi=nspazi;
   document.write(spazi);
 
@@ -39,7 +39,10 @@ for (var i=0;i<=n;i=i+2){
   document.write("<br>");
 }
 
+
 for (var e=n-2;e>=0;e=e-2){
+
+  
   
   for(var f=e;f>=1;f--){
     document.write("x");
