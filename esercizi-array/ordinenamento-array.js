@@ -15,3 +15,24 @@
 
   http://www.imparareaprogrammare.it
 */
+var array = [3, 7, -2, 5, 8, 1, 2, 5, 6, -4];
+var scambio;
+var indice;
+
+for (i = 0; i < array.length - 1; i++) {
+  indice = i;
+
+  for (k = i + 1; k < array.length; k++) {
+
+    if (array[k] > array[indice]) {
+      indice = k;
+    }
+  }
+  scambio = array[i];
+  array[i] = array[indice];
+  array[indice] = scambio;
+
+}
+
+console.log(array);
+

@@ -12,8 +12,6 @@
 var  a = 1, b = 2, c = 3, d = 4, e = 5;
 var somma = a+b+c+d+e
 console.log("la somma è "+ somma + " la media è "+ (somma/5) );
-var testo ="ciao sono marco";
-
 
 var testo = "oggi è bello oggi è brutto";
 testo =testo.replaceAll("oggi","domani");

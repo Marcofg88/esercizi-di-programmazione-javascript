@@ -1,5 +1,4 @@
-/*I primi numeri…primi!
-  Scrivi una funzione che prenda in input un numero e restituisca TRUE se è un numero primo, FALSE altrimenti.
+/*Scrivi una funzione che prenda in input un numero e restituisca TRUE se è un numero primo, FALSE altrimenti.
   Scrivi una seconda funzione, che prenda in input un numero N e stampi i primi N numeri primi.
 
   Esempio:
